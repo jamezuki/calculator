@@ -1,0 +1,20 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --style=compressed --no-source-map --watch styles/sass/master.scss styles/master.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamezuki/calculator.git"
+  },
+  "keywords": [],
+  "author": "James Layne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamezuki/calculator/issues"
+  },
+  "homepage": "https://github.com/jamezuki/calculator#readme"
+}

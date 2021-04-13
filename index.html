@@ -6,14 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/icon.png" type="image/png">
     <link rel="stylesheet" href="styles/master.css">
-    <title>Sass template</title>
+    <script src="scripts/script.js" defer></script>
+    <title>Calculator</title>
 </head>
 
 <body>
     <nav>
-        <a href="https://github.com/jamezuki/sass-template" target="_blank">GitHub</a>
+        <a href="https://github.com/jamezuki/calculator" target="_blank">GitHub</a>
     </nav>
-
+    <div id="grid">
+        <div id="display"></div>
+        <button data-key="Escape">C</button>
+        <button data-key="Backspace"><img src="images/del.svg" alt="&larr;"></button>
+        <button data-key="%">&percnt;</button>
+        <button class="operator" data-key="/">&divide;</button>
+        <button class="digit" data-key="1">1</button>
+        <button class="digit" data-key="2">2</button>
+        <button class="digit" data-key="3">3</button>
+        <button class="operator" data-key="*">&times;</button>
+        <button class="digit" data-key="4">4</button>
+        <button class="digit" data-key="5">5</button>
+        <button class="digit" data-key="6">6</button>
+        <button class="operator" data-key="-">&minus;</button>
+        <button class="digit" data-key="7">7</button>
+        <button class="digit" data-key="8">8</button>
+        <button class="digit" data-key="9">9</button>
+        <button class="operator" data-key="+">&plus;</button>
+        <button data-key="F9;¬">&plusmn;</button>
+        <button class="digit" data-key="0">0</button>
+        <button data-key=".">.</button>
+        <button data-key="=;Enter">&equals;</button>
+    </div>
 </body>
 
 </html>
