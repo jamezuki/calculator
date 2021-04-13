@@ -1,0 +1,40 @@
+@use '../abstracts/variables' as *;
+
+.bookmark {
+    // anchor offset for fixed header
+    padding-top: $nav-offset;
+    margin-top: -$nav-offset;
+}
+
+p {
+    max-width: 40rem;
+}
+
+a {
+    text-decoration: underline;
+    color: $anchor;
+}
+
+pre {
+    display: table;
+}
+
+figure {
+    display: table;
+    margin: 1rem 0;
+}
+
+figcaption {
+    font-weight: 900;
+    text-align: center;
+}
+
+dl dt,
+strong {
+    color: $strong;
+    font-weight: 900;
+}
+
+hr {
+    margin: 30px 0;
+}
